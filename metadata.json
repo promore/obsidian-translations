@@ -11,5 +11,18 @@
         "created_at": "2026-11-05T03:15:08.999Z",
         "updated_at": "2026-11-05T03:15:08.999Z",
         "type": "plugin"
+    },
+    {
+        "id": "UDTwnoztJF09d-A5TTHuaTFOGdVJRmyu",
+        "plugin": "Minimal",
+        "language": "zh-cn",
+        "version": "9.0.2",
+        "supported_versions": "9.0.2",
+        "title": "Minimal",
+        "description": "Minimal Localization & Tweaks",
+        "hash": "1a52a9991a52a9991a52a9991a52a999",
+        "created_at": "2026-11-05T03:34:28.622Z",
+        "updated_at": "2026-11-05T03:34:28.622Z",
+        "type": "theme"
     }
 ]
