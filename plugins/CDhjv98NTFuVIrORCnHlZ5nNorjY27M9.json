@@ -1,0 +1,174 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-card-link",
+        "version": "1.0.0",
+        "title": "Auto Card Link",
+        "description": "Auto Card Link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.3",
+        "author": "AaronHu"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "cardlink error: ${errorMsg}",
+                    "target": "cardlink 错误：${errorMsg}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "bad response. response status code was ${res==null?void 0:res.status}",
+                    "target": "响应异常。响应状态码为 ${res==null?void 0:res.status}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Code Block: cardlink unknown error",
+                    "target": "代码块：cardlink 未知错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading auto-card-link",
+                    "target": "正在卸载 auto-card-link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Fetch the link metadata when pasting a url in the editor with the default paste command",
+                    "target": "使用默认粘贴命令在编辑器中粘贴 URL 时获取链接元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to add commands in right click menu items",
+                    "target": "是否在右键菜单项中添加命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enhance Default Paste",
+                    "target": "增强默认粘贴"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add commands in menu item",
+                    "target": "在菜单项中添加命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Paste URL and enhance to card link",
+                    "target": "粘贴 URL 并增强为卡片链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Enhance selected URL to card link",
+                    "target": "将选中的 URL 增强为卡片链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy URL\n${data.url}",
+                    "target": "复制链接\n${data.url}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Couldn't fetch link metadata",
+                    "target": "无法获取链接元数据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "URL copied to your clipboard",
+                    "target": "链接已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste URL and enhance to card link",
+                    "target": "粘贴链接并转换为卡片链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enhance selected URL to card link",
+                    "target": "将选中的链接转换为卡片链接"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Enhance Default Paste\")",
+                    "target": "setName(\"Enhance Default Paste\")"
+                },
+                {
+                    "source": "setDesc(\"Fetch the link metadata when pasting a url in the editor with the default paste command\")",
+                    "target": "setDesc(\"Fetch the link metadata when pasting a url in the editor with the default paste command\")"
+                },
+                {
+                    "source": "setName(\"Add commands in menu item\")",
+                    "target": "setName(\"Add commands in menu item\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to add commands in right click menu items\")",
+                    "target": "setDesc(\"Whether to add commands in right click menu items\")"
+                },
+                {
+                    "source": "log(`Unable to find text \"${fetchingText}\" in current editor, bailing out; link ${url}`)",
+                    "target": "log(`Unable to find text \"${fetchingText}\" in current editor, bailing out; link ${url}`)"
+                },
+                {
+                    "source": "Notice(\"Couldn't fetch link metadata\")",
+                    "target": "Notice(\"Couldn't fetch link metadata\")"
+                },
+                {
+                    "source": "log(`bad response. response status code was ${res == null ? void 0 : res.status}`)",
+                    "target": "log(`bad response. response status code was ${res == null ? void 0 : res.status}`)"
+                },
+                {
+                    "source": "setTooltip(`Copy URL\n${data.url}`)",
+                    "target": "setTooltip(`Copy URL\n${data.url}`)"
+                },
+                {
+                    "source": "Notice(\"URL copied to your clipboard\")",
+                    "target": "Notice(\"URL copied to your clipboard\")"
+                },
+                {
+                    "source": "setTitle(\"Paste URL and enhance to card link\")",
+                    "target": "setTitle(\"Paste URL and enhance to card link\")"
+                },
+                {
+                    "source": "setTitle(\"Enhance selected URL to card link\")",
+                    "target": "setTitle(\"Enhance selected URL to card link\")"
+                },
+                {
+                    "source": "log(\"unloading auto-card-link\")",
+                    "target": "log(\"unloading auto-card-link\")"
+                },
+                {
+                    "source": "description: \"${linkMetadata.description}\"",
+                    "target": "description: \"${linkMetadata.description}\""
+                },
+                {
+                    "source": "textContent = `cardlink error: ${errorMsg}`",
+                    "target": "textContent = `cardlink error: ${errorMsg}`"
+                },
+                {
+                    "source": "name: \"Paste URL and enhance to card link\"",
+                    "target": "name: \"Paste URL and enhance to card link\""
+                },
+                {
+                    "source": "name: \"Enhance selected URL to card link\"",
+                    "target": "name: \"Enhance selected URL to card link\""
+                }
+            ]
+        }
+    }
+}
