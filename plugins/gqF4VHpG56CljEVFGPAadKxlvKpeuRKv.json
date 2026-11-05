@@ -1,0 +1,2230 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mermaid-tools",
+        "version": "1.0.0",
+        "title": "Mermaid Tools",
+        "description": "Mermaid Tools Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.3",
+        "author": "AaronHu"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Default categories cannot be deleted",
+                    "target": "默认分类无法删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display name for this category",
+                    "target": "此分类的显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default mermaid syntax to wrap elements (e.g., \"flowchart TD\", \"sequenceDiagram\")",
+                    "target": "用于包裹元素的默认 mermaid 语法（例如 \"flowchart TD\"、\"sequenceDiagram\"）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of alternative wrappings (e.g., \"flowchart LR, flowchart TB\")",
+                    "target": "以逗号分隔的备选包裹列表（例如：\"flowchart LR, flowchart TB\"）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determines the order in which categories appear",
+                    "target": "确定类别的显示顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Category ID",
+                    "target": "类别 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Category Name",
+                    "target": "类别名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Wrapping",
+                    "target": "默认包裹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional Wrappings (Optional)",
+                    "target": "附加包裹（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sort Order",
+                    "target": "排序顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "My Custom Category",
+                    "target": "我的自定义类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "flowchart TD",
+                    "target": "flowchart TD"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "flowchart LR, flowchart TB",
+                    "target": "flowchart LR, flowchart TB"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No elements in this category",
+                    "target": "此分类中没有元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "edit element",
+                    "target": "编辑元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "create a duplicate of this element",
+                    "target": "创建此元素的副本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "move element up in the sidebar",
+                    "target": "在侧边栏中上移元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "move element down in the sidebar",
+                    "target": "在侧边栏中下移元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "delete element",
+                    "target": "删除元素"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to open element editor: ${getErrorMessage(error)}",
+                    "target": "无法打开元素编辑器：${getErrorMessage(error)}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Category ID is required",
+                    "target": "分类 ID 为必填项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Category name is required",
+                    "target": "分类名称为必填项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Default wrapping is required",
+                    "target": "默认换行为必填项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\"${wrapping}\" is not a recognized Mermaid diagram type. The category will still be saved.",
+                    "target": "“${wrapping}”不是可识别的 Mermaid 图表类型。该分类仍将被保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A category with ID '${this.category.id}' already exists",
+                    "target": "ID 为“${this.category.id}”的分类已存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error saving category: ${getErrorMessage2(error)}",
+                    "target": "保存分类时出错：${getErrorMessage2(error)}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to load Mermaid settings: ${getErrorMessage3(error)}",
+                    "target": "无法加载 Mermaid 设置：${getErrorMessage3(error)}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error adding category: ${getErrorMessage3(error)}",
+                    "target": "添加分类时出错：${getErrorMessage3(error)}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error updating category: ${getErrorMessage3(error)}",
+                    "target": "更新分类时出错：${getErrorMessage3(error)}"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot delete category '${category.name}' because it contains ${elementsInCategory.length} element(s).",
+                    "target": "无法删除分类“${category.name}”，因为它包含 ${elementsInCategory.length} 个元素。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error deleting category: ${getErrorMessage3(error)}",
+                    "target": "删除分类时出错：${getErrorMessage3(error)}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "architecture-beta\n    group api(cloud)[API]\n\n    service db(database)[Database] in api\n    service disk1(disk)[Storage] in api\n    service disk2(disk)[Storage] in api\n    service server(server)[Server] in api\n\n    db:L -- R:server\n    disk1:T -- B:server\n    disk2:T -- B:db\n",
+                    "target": "architecture-beta\n    group api(cloud)[API]\n\n    service db(database)[Database] in api\n    service disk1(disk)[Storage] in api\n    service disk2(disk)[Storage] in api\n    service server(server)[Server] in api\n\n    db:L -- R:server\n    disk1:T -- B:server\n    disk2:T -- B:db\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "block-beta\ncolumns 1\n  db((\"DB\"))\n  blockArrowId6<[\"&nbsp;&nbsp;&nbsp;\"]>(down)\n  block:ID\n    A\n    B[\"A wide one in the middle\"]\n    C\n  end\n  space\n  D\n  ID --> D\n  C --> D\n  style B fill:#969,stroke:#333,stroke-width:4px\n",
+                    "target": "block-beta\ncolumns 1\n  db((\"DB\"))\n  blockArrowId6<[\"&nbsp;&nbsp;&nbsp;\"]>(down)\n  block:ID\n    A\n    B[\"A wide one in the middle\"]\n    C\n  end\n  space\n  D\n  ID --> D\n  C --> D\n  style B fill:#969,stroke:#333,stroke-width:4px\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "C4Context\n\t\ttitle System Context diagram for Internet Banking System\n\t\tEnterprise_Boundary(b0, \"BankBoundary0\") {\n\t\t  Person(customerA, \"Banking Customer A\", \"A customer of the bank, with personal bank accounts.\")\n\t\t  Person(customerB, \"Banking Customer B\")\n\t\t  Person_Ext(customerC, \"Banking Customer C\", \"desc\")\n  \n\t\t  Person(customerD, \"Banking Customer D\", \"A customer of the bank, <br/> with personal bank accounts.\")\n  \n\t\t  System(SystemAA, \"Internet Banking System\", \"Allows customers to view information about their bank accounts, and make payments.\")\n  \n\t\t  Enterprise_Boundary(b1, \"BankBoundary\") {\n  \n\t\t\tSystemDb_Ext(SystemE, \"Mainframe Banking System\", \"Stores all of the core banking information about customers, accounts, transactions, etc.\")\n  \n\t\t\tSystem_Boundary(b2, \"BankBoundary2\") {\n\t\t\t  System(SystemA, \"Banking System A\")\n\t\t\t  System(SystemB, \"Banking System B\", \"A system of the bank, with personal bank accounts. next line.\")\n\t\t\t}\n  \n\t\t\tSystem_Ext(SystemC, \"E-mail system\", \"The internal Microsoft Exchange e-mail system.\")\n\t\t\tSystemDb(SystemD, \"Banking System D Database\", \"A system of the bank, with personal bank accounts.\")\n  \n\t\t\tBoundary(b3, \"BankBoundary3\", \"boundary\") {\n\t\t\t  SystemQueue(SystemF, \"Banking System F Queue\", \"A system of the bank.\")\n\t\t\t  SystemQueue_Ext(SystemG, \"Banking System G Queue\", \"A system of the bank, with personal bank accounts.\")\n\t\t\t}\n\t\t  }\n\t\t}\n  \n\t\tBiRel(customerA, SystemAA, \"Uses\")\n\t\tBiRel(SystemAA, SystemE, \"Uses\")\n\t\tRel(SystemAA, SystemC, \"Sends e-mails\", \"SMTP\")\n\t\tRel(SystemC, customerA, \"Sends e-mails to\")\n  \n\t\tUpdateElementStyle(customerA, $fontColor=\"red\", $bgColor=\"grey\", $borderColor=\"red\")\n\t\tUpdateRelStyle(customerA, SystemAA, $textColor=\"blue\", $lineColor=\"blue\", $offsetX=\"5\")\n\t\tUpdateRelStyle(SystemAA, SystemE, $textColor=\"blue\", $lineColor=\"blue\", $offsetY=\"-10\")\n\t\tUpdateRelStyle(SystemAA, SystemC, $textColor=\"blue\", $lineColor=\"blue\", $offsetY=\"-40\", $offsetX=\"-50\")\n\t\tUpdateRelStyle(SystemC, customerA, $textColor=\"red\", $lineColor=\"red\", $offsetX=\"-50\", $offsetY=\"20\")\n  \n\t\tUpdateLayoutConfig($c4ShapeInRow=\"3\", $c4BoundaryInRow=\"1\")",
+                    "target": "C4Context\n\t\ttitle 网上银行系统上下文图\n\t\tEnterprise_Boundary(b0, \"银行边界0\") {\n\t\t  Person(customerA, \"银行客户 A\", \"银行的客户，拥有个人银行账户。\")\n\t\t  Person(customerB, \"银行客户 B\")\n\t\t  Person_Ext(customerC, \"银行客户 C\", \"描述\")\n  \n\t\t  Person(customerD, \"银行客户 D\", \"银行的客户，<br/> 拥有个人银行账户。\")\n  \n\t\t  System(SystemAA, \"网上银行系统\", \"允许客户查看其银行账户信息并进行支付。\")\n  \n\t\t  Enterprise_Boundary(b1, \"银行边界\") {\n  \n\t\t\tSystemDb_Ext(SystemE, \"大型机银行系统\", \"存储所有关于客户、账户、交易等的核心银行信息。\")\n  \n\t\t\tSystem_Boundary(b2, \"银行边界2\") {\n\t\t\t  System(SystemA, \"银行系统 A\")\n\t\t\t  System(SystemB, \"银行系统 B\", \"银行的一个系统，拥有个人银行账户。下一行。\")\n\t\t\t}\n  \n\t\t\tSystem_Ext(SystemC, \"电子邮件系统\", \"内部 Microsoft Exchange 电子邮件系统。\")\n\t\t\tSystemDb(SystemD, \"银行系统 D 数据库\", \"银行的一个系统，拥有个人银行账户。\")\n  \n\t\t\tBoundary(b3, \"银行边界3\", \"边界\") {\n\t\t\t  SystemQueue(SystemF, \"银行系统 F 队列\", \"银行的一个系统。\")\n\t\t\t  SystemQueue_Ext(SystemG, \"银行系统 G 队列\", \"银行的一个系统，拥有个人银行账户。\")\n\t\t\t}\n\t\t  }\n\t\t}\n  \n\t\tBiRel(customerA, SystemAA, \"使用\")\n\t\tBiRel(SystemAA, SystemE, \"使用\")\n\t\tRel(SystemAA, SystemC, \"发送电子邮件\", \"SMTP\")\n\t\tRel(SystemC, customerA, \"发送电子邮件至\")\n  \n\t\tUpdateElementStyle(customerA, $fontColor=\"red\", $bgColor=\"grey\", $borderColor=\"red\")\n\t\tUpdateRelStyle(customerA, SystemAA, $textColor=\"blue\", $lineColor=\"blue\", $offsetX=\"5\")\n\t\tUpdateRelStyle(SystemAA, SystemE, $textColor=\"blue\", $lineColor=\"blue\", $offsetY=\"-10\")\n\t\tUpdateRelStyle(SystemAA, SystemC, $textColor=\"blue\", $lineColor=\"blue\", $offsetY=\"-40\", $offsetX=\"-50\")\n\t\tUpdateRelStyle(SystemC, customerA, $textColor=\"red\", $lineColor=\"red\", $offsetX=\"-50\", $offsetY=\"20\")\n  \n\t\tUpdateLayoutConfig($c4ShapeInRow=\"3\", $c4BoundaryInRow=\"1\")"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "class Duck{\n            +String beakColor\n            +swim()\n            +quack()\n        }",
+                    "target": "class Duck{\n            +String beakColor\n            +swim()\n            +quack()\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "class BankAccount\n        BankAccount : +String owner\n        BankAccount : +Bigdecimal balance\n        BankAccount : +deposit(amount)\n        BankAccount : +withdrawal(amount)",
+                    "target": "class BankAccount\n        BankAccount : +String owner\n        BankAccount : +Bigdecimal balance\n        BankAccount : +deposit(amount)\n        BankAccount : +withdrawal(amount)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "class Square~Shape~{\n            int id\n            List~int~ position\n            setPoints(List~int~ points)\n            getPoints() List~int~\n        }\n        \n        Square : -List~string~ messages\n        Square : +setMessages(List~string~ messages)\n        Square : +getMessages() List~string~",
+                    "target": "class Square~Shape~{\n            int id\n            List~int~ position\n            setPoints(List~int~ points)\n            getPoints() List~int~\n        }\n        \n        Square : -List~string~ messages\n        Square : +setMessages(List~string~ messages)\n        Square : +getMessages() List~string~"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classA <|-- classB",
+                    "target": "classA <|-- classB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classC *-- classD",
+                    "target": "classC *-- classD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classE o-- classF",
+                    "target": "classE o-- classF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classG <-- classH",
+                    "target": "classG <-- classH"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classI -- classJ",
+                    "target": "classI -- classJ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classK <.. classL",
+                    "target": "classK <.. classL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classM <|.. classN",
+                    "target": "classM <|.. classN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classO .. classP",
+                    "target": "classO .. classP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Animal <|--|> Zebra",
+                    "target": "Animal <|--|> Zebra"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "classDiagram\n        Animal <|-- Duck\n        Animal <|-- Fish\n        Animal <|-- Zebra\n        Animal : +int age\n        Animal : +String gender\n        Animal: +isMammal()\n        Animal: +mate()\n        class Duck{\n            +String beakColor\n            +swim()\n            +quack()\n        }\n        class Fish{\n            -int sizeInFeet\n            -canEat()\n        }\n        class Zebra{\n            +bool is_wild\n            +run()\n        }",
+                    "target": "classDiagram\n        Animal <|-- Duck\n        Animal <|-- Fish\n        Animal <|-- Zebra\n        Animal : +int age\n        Animal : +String gender\n        Animal: +isMammal()\n        Animal: +mate()\n        class Duck{\n            +String beakColor\n            +swim()\n            +quack()\n        }\n        class Fish{\n            -int sizeInFeet\n            -canEat()\n        }\n        class Zebra{\n            +bool is_wild\n            +run()\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "erDiagram\n        CUSTOMER ||--o{ ORDER : places\n        ORDER ||--|{ LINE-ITEM : contains\n        CUSTOMER }|..|{ DELIVERY-ADDRESS : uses",
+                    "target": "erDiagram\n        CUSTOMER ||--o{ ORDER : places\n        ORDER ||--|{ LINE-ITEM : contains\n        CUSTOMER }|..|{ DELIVERY-ADDRESS : uses"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "    CUSTOMER {\n            string name\n            string custNumber\n            string sector\n        }",
+                    "target": "    CUSTOMER {\n            string name\n            string custNumber\n            string sector\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A ||--|{ B : label",
+                    "target": "A ||--|{ B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A }|--|{ B : label",
+                    "target": "A }|--|{ B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A ||--|| B : label",
+                    "target": "A ||--|| B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A }|--|| B : label",
+                    "target": "A }|--|| B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A |o--|| B : label",
+                    "target": "A |o--|| B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A ||--o| B : label",
+                    "target": "A ||--o| B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A }o--|| B : label",
+                    "target": "A }o--|| B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A ||--o{ B : label",
+                    "target": "A ||--o{ B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A }o--|{ B : label",
+                    "target": "A }o--|{ B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A }|--o{ B : label",
+                    "target": "A }|--o{ B : label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "flowchart TD\nStart --> Stop",
+                    "target": "flowchart TD\nStart --> Stop"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "flowchart LR\nStart --> Stop",
+                    "target": "flowchart LR\nStart --> Stop"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1(Some text)",
+                    "target": "id1(Some text)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1([Some text])",
+                    "target": "id1([Some text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1((Some text))",
+                    "target": "id1((一些文本))"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1{Some text}",
+                    "target": "id1{一些文本}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1{{Some text}}",
+                    "target": "id1{{一些文本}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1[/Some text/]",
+                    "target": "id1[/一些文本/]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1[\\Some text\\]",
+                    "target": "id1[\\一些文本\\]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A[/Some text\\]",
+                    "target": "A[/一些文本\\]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A[\\Some text/]",
+                    "target": "A[\\一些文本/]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id1(((Some text)))",
+                    "target": "id1(((一些文本)))"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A --- B",
+                    "target": "A --- B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A-- This is the text! ---B",
+                    "target": "A-- 这是文本！ ---B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A ==> B",
+                    "target": "A ==> B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A ~~~ B",
+                    "target": "A ~~~ B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A --o B",
+                    "target": "A --o B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "A --x B",
+                    "target": "A --x B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "subgraph one\na1-->a2\nend",
+                    "target": "subgraph one\na1-->a2\nend"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "gantt\n        title A Gantt Diagram\n        dateFormat  YYYY-MM-DD\n        section Section\n        A task           :a1, 2014-01-01, 30d\n        Another task     :after a1  , 20d\n        section Another\n        Task in sec      :2014-01-12  , 12d\n        another task      : 24d",
+                    "target": "gantt\n        title 甘特图示例\n        dateFormat  YYYY-MM-DD\n        section 阶段\n        任务 A           :a1, 2014-01-01, 30d\n        另一个任务     :after a1  , 20d\n        section 另一阶段\n        阶段内任务      :2014-01-12  , 12d\n        另一个任务      : 24d"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "gantt\n        dateFormat  YYYY-MM-DD\n        title       Adding GANTT diagram functionality to mermaid\n        excludes    weekends\n    \n        section A section\n        Completed task            :done,    des1, 2014-01-06,2014-01-08\n        Active task               :active,  des2, 2014-01-09, 3d\n        Future task               :         des3, after des2, 5d\n        Future task2              :         des4, after des3, 5d\n    \n        section Critical tasks\n        Completed task in the critical line :crit, done, 2014-01-06,24h\n        Implement parser and jison          :crit, done, after des1, 2d\n        Create tests for parser             :crit, active, 3d\n        Future task in critical line        :crit, 5d\n        Create tests for renderer           :2d\n        Add to mermaid                      :1d\n        Functionality added                 :milestone, 2014-01-25, 0d\n    \n        section Documentation\n        Describe gantt syntax               :active, a1, after des1, 3d\n        Add gantt diagram to demo page      :after a1  , 20h\n        Add another diagram to demo page    :doc1, after a1  , 48h\n    \n        section Last section\n        Describe gantt syntax               :after doc1, 3d\n        Add gantt diagram to demo page      :20h\n        Add another diagram to demo page    :48h",
+                    "target": "gantt\n        dateFormat  YYYY-MM-DD\n        title       为 mermaid 添加甘特图功能\n        excludes    weekends\n    \n        section 阶段 A\n        已完成任务            :done,    des1, 2014-01-06,2014-01-08\n        进行中任务               :active,  des2, 2014-01-09, 3d\n        未来任务               :         des3, after des2, 5d\n        未来任务2              :         des4, after des3, 5d\n    \n        section 关键任务\n        关键路径中的已完成任务 :crit, done, 2014-01-06,24h\n        实现解析器和 jison          :crit, done, after des1, 2d\n        为解析器创建测试             :crit, active, 3d\n        关键路径中的未来任务        :crit, 5d\n        为渲染器创建测试           :2d\n        添加到 mermaid                      :1d\n        已添加功能                 :milestone, 2014-01-25, 0d\n    \n        section 文档\n        描述甘特图语法               :active, a1, after des1, 3d\n        将甘特图添加到演示页面      :after a1  , 20h\n        将另一个图表添加到演示页面    :doc1, after a1  , 48h\n    \n        section 最后阶段\n        描述甘特图语法               :after doc1, 3d\n        将甘特图添加到演示页面      :20h\n        将另一个图表添加到演示页面    :48h"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "gantt\n        dateFormat HH:mm\n        axisFormat %H:%M\n        Initial milestone : milestone, m1, 17:49,2min\n        taska2 : 10min\n        taska3 : 5min\n        Final milestone : milestone, m2, 18:14, 2min",
+                    "target": "gantt\n        dateFormat HH:mm\n        axisFormat %H:%M\n        初始里程碑 : milestone, m1, 17:49,2min\n        任务a2 : 10min\n        任务a3 : 5min\n        最终里程碑 : milestone, m2, 18:14, 2min"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "gitGraph\n        commit\n        commit\n        branch develop\n        checkout develop\n        commit\n        commit\n        checkout main\n        merge develop\n        commit\n        commit",
+                    "target": "gitGraph\n        commit\n        commit\n        branch develop\n        checkout develop\n        commit\n        commit\n        checkout main\n        merge develop\n        commit\n        commit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "commit id: \"Normal\" tag: \"v1.0.0\"",
+                    "target": "commit id: \"Normal\" tag: \"v1.0.0\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "commit id: \"Reverse\" type: REVERSE",
+                    "target": "commit id: \"Reverse\" type: REVERSE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "commit id: \"Highlight\" type: HIGHLIGHT",
+                    "target": "commit id: \"Highlight\" type: HIGHLIGHT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "gitGraph\n        commit id: \"ZERO\"\n        branch develop\n        commit id:\"A\"\n        checkout main\n        commit id:\"ONE\"\n        checkout develop\n        commit id:\"B\"\n        checkout main\n        commit id:\"TWO\"\n        cherry-pick id:\"A\"\n        commit id:\"THREE\"\n        checkout develop\n        commit id:\"C\"",
+                    "target": "gitGraph\n        commit id: \"ZERO\"\n        branch develop\n        commit id:\"A\"\n        checkout main\n        commit id:\"ONE\"\n        checkout develop\n        commit id:\"B\"\n        checkout main\n        commit id:\"TWO\"\n        cherry-pick id:\"A\"\n        commit id:\"THREE\"\n        checkout develop\n        commit id:\"C\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "kanban\n  Todo\n    [Create Documentation]\n    docs[Create Blog about the new diagram]\n  [In progress]\n    id6[Create renderer so that it works in all cases. We also add som extra text here for testing purposes. And some more just for the extra flare.]\n  id9[Ready for deploy]\n    id8[Design grammar]@{ assigned: 'knsv' }\n  id10[Ready for test]\n    id4[Create parsing tests]@{ ticket: MC-2038, assigned: 'K.Sveidqvist', priority: 'High' }\n    id66[last item]@{ priority: 'Very Low', assigned: 'knsv' }\n  id11[Done]\n    id5[define getData]\n    id2[Title of diagram is more than 100 chars when user duplicates diagram with 100 char]@{ ticket: MC-2036, priority: 'Very High'}\n    id3[Update DB function]@{ ticket: MC-2037, assigned: knsv, priority: 'High' }\n\n  id12[Can't reproduce]\n    id3[Weird flickering in Firefox]",
+                    "target": "kanban\n  Todo\n    [Create Documentation]\n    docs[Create Blog about the new diagram]\n  [In progress]\n    id6[Create renderer so that it works in all cases. We also add som extra text here for testing purposes. And some more just for the extra flare.]\n  id9[Ready for deploy]\n    id8[Design grammar]@{ assigned: 'knsv' }\n  id10[Ready for test]\n    id4[Create parsing tests]@{ ticket: MC-2038, assigned: 'K.Sveidqvist', priority: 'High' }\n    id66[last item]@{ priority: 'Very Low', assigned: 'knsv' }\n  id11[Done]\n    id5[define getData]\n    id2[Title of diagram is more than 100 chars when user duplicates diagram with 100 char]@{ ticket: MC-2036, priority: 'Very High'}\n    id3[Update DB function]@{ ticket: MC-2037, assigned: knsv, priority: 'High' }\n\n  id12[Can't reproduce]\n    id3[Weird flickering in Firefox]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "mindmap\n        Root\n            A\n              B\n              C",
+                    "target": "mindmap\n        Root\n            A\n              B\n              C"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id[I am a square]",
+                    "target": "id[I am a square]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id(I am a rounded square)",
+                    "target": "id(I am a rounded square)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id((I am a circle))",
+                    "target": "id((I am a circle))"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id))I am a bang((",
+                    "target": "id))I am a bang(("
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id)I am a cloud(",
+                    "target": "id)I am a cloud("
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "id{{I am a hexagon}}",
+                    "target": "id{{I am a hexagon}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "I am the default shape",
+                    "target": "我是默认形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "mindmap\n        root((mindmap))\n          Origins\n            Long history\n            Popularisation\n              British popular psychology author Tony Buzan\n          Research\n            On effectiveness<br/>and features\n            On Automatic creation\n              Uses\n                  Creative techniques\n                  Strategic planning\n                  Argument mapping\n          Tools\n            Pen and paper\n            Mermaid",
+                    "target": "mindmap\n        root((mindmap))\n          Origins\n            Long history\n            Popularisation\n              British popular psychology author Tony Buzan\n          Research\n            On effectiveness<br/>and features\n            On Automatic creation\n              Uses\n                  Creative techniques\n                  Strategic planning\n                  Argument mapping\n          Tools\n            Pen and paper\n            Mermaid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "packet-beta\ntitle UDP Packet\n0-15: \"Source Port\"\n16-31: \"Destination Port\"\n32-47: \"Length\"\n48-63: \"Checksum\"\n64-95: \"Data (variable length)\"\n",
+                    "target": "packet-beta\ntitle UDP Packet\n0-15: \"Source Port\"\n16-31: \"Destination Port\"\n32-47: \"Length\"\n48-63: \"Checksum\"\n64-95: \"Data (variable length)\"\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "pie title /r/obsidianmd posts by type\n        \"Graphs\" : 85\n        \"Dashboards\" : 14\n        \"Tips\" : 1",
+                    "target": "pie title /r/obsidianmd posts by type\n        \"Graphs\" : 85\n        \"Dashboards\" : 14\n        \"Tips\" : 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "pie showData title /r/obsidianmd posts by type\n        \"Graphs\" : 85\n        \"Dashboards\" : 14\n        \"Tips\" : 1",
+                    "target": "pie showData title /r/obsidianmd posts by type\n        \"Graphs\" : 85\n        \"Dashboards\" : 14\n        \"Tips\" : 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "quadrantChart\n\t\ttitle Reach and engagement of campaigns\n\t\tx-axis Low Reach --> High Reach\n\t\ty-axis Low Engagement --> High Engagement\n\t\tquadrant-1 We should expand\n\t\tquadrant-2 Need to promote\n\t\tquadrant-3 Re-evaluate\n\t\tquadrant-4 May be improved\n\t\tCampaign A: [0.3, 0.6]\n\t\tCampaign B: [0.45, 0.23]\n\t\tCampaign C: [0.57, 0.69]\n\t\tCampaign D: [0.78, 0.34]\n\t\tCampaign E: [0.40, 0.34]\n\t\tCampaign F: [0.35, 0.78]",
+                    "target": "quadrantChart\n\t\ttitle Reach and engagement of campaigns\n\t\tx-axis Low Reach --> High Reach\n\t\ty-axis Low Engagement --> High Engagement\n\t\tquadrant-1 We should expand\n\t\tquadrant-2 Need to promote\n\t\tquadrant-3 Re-evaluate\n\t\tquadrant-4 May be improved\n\t\tCampaign A: [0.3, 0.6]\n\t\tCampaign B: [0.45, 0.23]\n\t\tCampaign C: [0.57, 0.69]\n\t\tCampaign D: [0.78, 0.34]\n\t\tCampaign E: [0.40, 0.34]\n\t\tCampaign F: [0.35, 0.78]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "%%{init: {\"quadrantChart\": {\"chartWidth\": 400, \"chartHeight\": 400}, \"themeVariables\": {\"quadrant1TextFill\": \"#ff0000\"} }}%%\n\t\tquadrantChart\n\t\t  x-axis Urgent --> Not Urgent\n\t\t  y-axis Not Important --> \"Important \\u2764\"\n\t\t  quadrant-1 Plan\n\t\t  quadrant-2 Do\n\t\t  quadrant-3 Delegate\n\t\t  quadrant-4 Delete",
+                    "target": "%%{init: {\"quadrantChart\": {\"chartWidth\": 400, \"chartHeight\": 400}, \"themeVariables\": {\"quadrant1TextFill\": \"#ff0000\"} }}%%\n\t\tquadrantChart\n\t\t  x-axis Urgent --> Not Urgent\n\t\t  y-axis Not Important --> \"Important \\u2764\"\n\t\t  quadrant-1 Plan\n\t\t  quadrant-2 Do\n\t\t  quadrant-3 Delegate\n\t\t  quadrant-4 Delete"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "    requirementDiagram\n\n        requirement test_req {\n        id: 1\n        text: the test text.\n        risk: high\n        verifymethod: test\n        }\n    \n        element test_entity {\n        type: simulation\n        }\n    \n        test_entity - satisfies -> test_req",
+                    "target": "    requirementDiagram\n\n        requirement test_req {\n        id: 1\n        text: the test text.\n        risk: high\n        verifymethod: test\n        }\n    \n        element test_entity {\n        type: simulation\n        }\n    \n        test_entity - satisfies -> test_req"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "element customElement {\n            type: customType\n            docref: customDocRef\n        }",
+                    "target": "element customElement {\n            type: customType\n            docref: customDocRef\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "functionalRequirement myReq {\n            id: reqId\n            text: someText\n            risk: High\n            verifymethod: analysis\n        }",
+                    "target": "functionalRequirement myReq {\n            id: reqId\n            text: someText\n            risk: High\n            verifymethod: analysis\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "interfaceRequirement myReq2 {\n            id: reqId\n            text: someText\n            risk: Medium\n            verifymethod: demonstration\n        }",
+                    "target": "interfaceRequirement myReq2 {\n            id: reqId\n            text: someText\n            risk: Medium\n            verifymethod: demonstration\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "designConstraint myReq3 {\n            id: reqId\n            text: someText\n            risk: Low\n            verifymethod: test\n        }",
+                    "target": "designConstraint myReq3 {\n            id: reqId\n            text: someText\n            risk: Low\n            verifymethod: test\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "sankey-beta\n        %% source,target,value\n        Electricity grid,Over generation / exports,104.453\n        Electricity grid,Heating and cooling - homes,113.726\n        Electricity grid,H2 conversion,27.14",
+                    "target": "sankey-beta\n        %% source,target,value\n        Electricity grid,Over generation / exports,104.453\n        Electricity grid,Heating and cooling - homes,113.726\n        Electricity grid,H2 conversion,27.14"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "sequenceDiagram\nAlice->>John: Hello John, how are you?\nJohn-->>Alice: Great!\nAlice-)John: See you later!",
+                    "target": "sequenceDiagram\nAlice->>John: Hello John, how are you?\nJohn-->>Alice: Great!\nAlice-)John: See you later!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "sequenceDiagram\nactor Alice\nactor John\nAlice->>John: Hello John, how are you?\nJohn-->>Alice: Great!\nAlice-)John: See you later!",
+                    "target": "sequenceDiagram\nactor Alice\nactor John\nAlice->>John: Hello John, how are you?\nJohn-->>Alice: Great!\nAlice-)John: See you later!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "stateDiagram-v2\n        [*] --> Still\n        Still --> [*]\n    \n        Still --> Moving\n        Moving --> Still\n        Moving --> Crash\n        Crash --> [*]",
+                    "target": "stateDiagram-v2\n        [*] --> Still\n        Still --> [*]\n    \n        Still --> Moving\n        Moving --> Still\n        Moving --> Crash\n        Crash --> [*]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "stateDiagram-v2\n        direction LR\n        [*] --> Still\n        Still --> [*]\n    \n        Still --> Moving\n        Moving --> Still\n        Moving --> Crash\n        Crash --> [*]",
+                    "target": "stateDiagram-v2\n        direction LR\n        [*] --> Still\n        Still --> [*]\n    \n        Still --> Moving\n        Moving --> Still\n        Moving --> Crash\n        Crash --> [*]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "s2 : This is a state description",
+                    "target": "s2 : 这是一个状态描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "s1 --> s2",
+                    "target": "s1 --> s2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "s1 --> s2: A transition",
+                    "target": "s1 --> s2: 一个过渡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\n        [*] --> First\n        state First {\n            [*] --> second\n            second --> [*]\n        }",
+                    "target": "\n        [*] --> First\n        state First {\n            [*] --> second\n            second --> [*]\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "stateDiagram-v2\n        state if_state <<choice>>\n        [*] --> IsPositive\n        IsPositive --> if_state\n        if_state --> False: if n < 0\n        if_state --> True : if n >= 0",
+                    "target": "stateDiagram-v2\n        state if_state <<choice>>\n        [*] --> IsPositive\n        IsPositive --> if_state\n        if_state --> False: 如果 n < 0\n        if_state --> True : 如果 n >= 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "stateDiagram-v2\n        state fork_state <<fork>>\n          [*] --> fork_state\n          fork_state --> State2\n          fork_state --> State3\n    \n          state join_state <<join>>\n          State2 --> join_state\n          State3 --> join_state\n          join_state --> State4\n          State4 --> [*]",
+                    "target": "stateDiagram-v2\n        state fork_state <<fork>>\n          [*] --> fork_state\n          fork_state --> State2\n          fork_state --> State3\n    \n          state join_state <<join>>\n          State2 --> join_state\n          State3 --> join_state\n          join_state --> State4\n          State4 --> [*]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "stateDiagram-v2\n        [*] --> Active\n    \n        state Active {\n            [*] --> NumLockOff\n            NumLockOff --> NumLockOn : EvNumLockPressed\n            NumLockOn --> NumLockOff : EvNumLockPressed\n            --\n            [*] --> CapsLockOff\n            CapsLockOff --> CapsLockOn : EvCapsLockPressed\n            CapsLockOn --> CapsLockOff : EvCapsLockPressed\n            --\n            [*] --> ScrollLockOff\n            ScrollLockOff --> ScrollLockOn : EvScrollLockPressed\n            ScrollLockOn --> ScrollLockOff : EvScrollLockPressed\n        }",
+                    "target": "stateDiagram-v2\n        [*] --> Active\n    \n        state Active {\n            [*] --> NumLockOff\n            NumLockOff --> NumLockOn : EvNumLockPressed\n            NumLockOn --> NumLockOff : EvNumLockPressed\n            --\n            [*] --> CapsLockOff\n            CapsLockOff --> CapsLockOn : EvCapsLockPressed\n            CapsLockOn --> CapsLockOff : EvCapsLockPressed\n            --\n            [*] --> ScrollLockOff\n            ScrollLockOff --> ScrollLockOn : EvScrollLockPressed\n            ScrollLockOn --> ScrollLockOff : EvScrollLockPressed\n        }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "timeline\n\t\ttitle History of Social Media Platform\n\t\t2002 : LinkedIn\n\t\t2004 : Facebook\n\t\t\t : Google\n\t\t2005 : Youtube\n\t\t2006 : Twitter",
+                    "target": "timeline\n\t\ttitle 社交媒体平台的历史\n\t\t2002 : LinkedIn\n\t\t2004 : Facebook\n\t\t\t : Google\n\t\t2005 : Youtube\n\t\t2006 : Twitter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "timeline\n\t\ttitle Timeline of Industrial Revolution\n\t\tsection 17th-20th century\n\t\t\tIndustry 1.0 : Machinery, Water power, Steam <br>power\n\t\t\tIndustry 2.0 : Electricity, Internal combustion engine, Mass production\n\t\t\tIndustry 3.0 : Electronics, Computers, Automation\n\t\tsection 21st century\n\t\t\tIndustry 4.0 : Internet, Robotics, Internet of Things\n\t\t\tIndustry 5.0 : Artificial intelligence, Big data,3D printing",
+                    "target": "timeline\n\t\ttitle 工业革命时间线\n\t\tsection 17-20世纪\n\t\t\t工业 1.0 : 机械、水力、蒸汽<br>动力\n\t\t\t工业 2.0 : 电力、内燃机、大规模生产\n\t\t\t工业 3.0 : 电子、计算机、自动化\n\t\tsection 21世纪\n\t\t\t工业 4.0 : 互联网、机器人技术、物联网\n\t\t\t工业 5.0 : 人工智能、大数据、3D打印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%\n\t\ttimeline\n\t\t\ttitle History of Social Media Platform\n\t\t\t  2002 : LinkedIn\n\t\t\t  2004 : Facebook : Google\n\t\t\t  2005 : Youtube\n\t\t\t  2006 : Twitter\n\t\t\t  2007 : Tumblr\n\t\t\t  2008 : Instagram\n\t\t\t  2010 : Pinterest",
+                    "target": "%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%\n\t\ttimeline\n\t\t\ttitle 社交媒体平台的历史\n\t\t\t  2002 : LinkedIn\n\t\t\t  2004 : Facebook : Google\n\t\t\t  2005 : Youtube\n\t\t\t  2006 : Twitter\n\t\t\t  2007 : Tumblr\n\t\t\t  2008 : Instagram\n\t\t\t  2010 : Pinterest"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "journey\n        title My working day\n        section Go to work\n          Make tea: 5: Me\n          Go upstairs: 3: Me\n          Do work: 1: Me, Cat\n        section Go home\n          Go downstairs: 5: Me\n          Sit down: 5: Me",
+                    "target": "journey\n        title 我的一天工作\n        section 去上班\n          泡茶: 5: 我\n          上楼: 3: 我\n          工作: 1: 我, 猫\n        section 回家\n          下楼: 5: 我\n          坐下: 5: 我"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "      Step Title: 5: ActorName",
+                    "target": "      步骤标题: 5: 参与者名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "xychart-beta\n        title \"Sales Revenue\"\n        x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]\n        y-axis \"Revenue (in $)\" 4000 --> 11000\n        bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]\n        line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]",
+                    "target": "xychart-beta\n        title \"销售收入\"\n        x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]\n        y-axis \"收入（美元）\" 4000 --> 11000\n        bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]\n        line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add, edit, duplicate, delete, and reorder Mermaid toolbar elements and diagram categories.",
+                    "target": "添加、编辑、复制、删除和重新排序 Mermaid 工具栏元素和图表类别。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample architecture diagram",
+                    "target": "示例架构图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample block diagram",
+                    "target": "示例框图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample C4 diagram (compatible with PlantUML)",
+                    "target": "示例 C4 图（兼容 PlantUML）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample class",
+                    "target": "示例类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "generic class",
+                    "target": "通用类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "inheritance",
+                    "target": "继承"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "composition",
+                    "target": "组合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aggregation",
+                    "target": "聚合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "association",
+                    "target": "关联"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "solid link",
+                    "target": "实线连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "dependency",
+                    "target": "依赖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "realization",
+                    "target": "实现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "dashed link",
+                    "target": "虚线连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "two-way relation",
+                    "target": "双向关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample class diagram",
+                    "target": "示例类图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample entity relationship diagram",
+                    "target": "示例实体关系图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an entity",
+                    "target": "实体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "one-to-many relationship",
+                    "target": "一对多关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "many-to-many relationship",
+                    "target": "多对多关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "one-to-one relationship",
+                    "target": "一对一关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "many-to-one relationship",
+                    "target": "多对一关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "zero/one-to-one relationship",
+                    "target": "零/一对一关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "one-to-one/zero relationship",
+                    "target": "一对零/一关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "zero-or-more-to-one relationship",
+                    "target": "零或多对一关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "one-to-zero-or-more relationship",
+                    "target": "一对零或多关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "zero-or-more-to-many relationship",
+                    "target": "零或多对多关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "many-to-zero-or-more relationship",
+                    "target": "多对零或多关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a simple flowchart with top to down direction",
+                    "target": "一个自上而下的简单流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a simple flowchart with left to right direction",
+                    "target": "一个从左到右方向的简单流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A node with round edges",
+                    "target": "一个带有圆角的节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A stadium-shaped node",
+                    "target": "一个体育场形状的节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A node in a cylindrical shape",
+                    "target": "一个圆柱形的节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Circle",
+                    "target": "圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rhombus",
+                    "target": "菱形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hexagon",
+                    "target": "六边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Parallelogram skewed right",
+                    "target": "向右倾斜的平行四边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Parallelogram skewed left",
+                    "target": "向左倾斜的平行四边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trapezoid",
+                    "target": "梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trapezoid upside down",
+                    "target": "倒置梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Double circle node",
+                    "target": "双圆节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A link with arrow head",
+                    "target": "带箭头的连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "An open link",
+                    "target": "开放连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text on links",
+                    "target": "连线上的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A link with arrow head and text",
+                    "target": "带箭头和文本的连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dotted link",
+                    "target": "虚线连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Thick link",
+                    "target": "粗连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invisible link",
+                    "target": "不可见连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Link with circle edge",
+                    "target": "带圆形端点的连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Link with cross edge",
+                    "target": "带交叉边的连线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Subgraph",
+                    "target": "子图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "simple gantt chart",
+                    "target": "简单甘特图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "rich gantt chart",
+                    "target": "丰富甘特图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "milestones example",
+                    "target": "里程碑示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "simple git graph",
+                    "target": "简单 Git 图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "tagged commit",
+                    "target": "带标签的提交"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "reverse commit",
+                    "target": "反向提交"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "highlighted commit",
+                    "target": "高亮提交"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "git graph with cherry-pick",
+                    "target": "带拣选操作的 Git 图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample kanban diagram",
+                    "target": "一个看板图示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a simple mindmap",
+                    "target": "一个简单的思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "square",
+                    "target": "方形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "rounded square",
+                    "target": "圆角方形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "circle",
+                    "target": "圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "bang",
+                    "target": "爆炸形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "cloud",
+                    "target": "云形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "hexagon",
+                    "target": "六边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "default",
+                    "target": "默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample mindmap",
+                    "target": "思维导图示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample packet diagram",
+                    "target": "示例数据包图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample pie chart",
+                    "target": "示例饼图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample pie chart with values shown in legend",
+                    "target": "图例中显示数值的示例饼图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample quadrant chart",
+                    "target": "示例象限图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "themed quadrant chart",
+                    "target": "主题化象限图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample requirements diagram",
+                    "target": "示例需求图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a requirement with high risk",
+                    "target": "高风险需求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a simple sequence diagram",
+                    "target": "简单时序图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a simple sequence diagram with actors",
+                    "target": "包含参与者的简单时序图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample state diagram",
+                    "target": "示例状态图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample state diagram with left-to-right direction",
+                    "target": "一个从左到右方向的示例状态图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "node with description",
+                    "target": "带描述的节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a transition",
+                    "target": "一个转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a transition with label",
+                    "target": "带标签的转换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "composite state",
+                    "target": "复合状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "diagram with choice",
+                    "target": "带选择点的图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "diagram with fork",
+                    "target": "带分叉的图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a diagram with concurrency",
+                    "target": "带并发的图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "sample timeline",
+                    "target": "示例时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "timeline with grouping",
+                    "target": "带分组的时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "timeline with Forest theme. see the docs for additional themes",
+                    "target": "使用 Forest 主题的时间线。请参阅文档了解其他主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample user journey diagram",
+                    "target": "示例用户旅程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a step in user journey",
+                    "target": "用户旅程中的一个步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a sample XYChart diagram",
+                    "target": "示例 XYChart 图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New element",
+                    "target": "新元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flowchart",
+                    "target": "流程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SequenceDiagram",
+                    "target": "序列图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ClassDiagram",
+                    "target": "类图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "StateDiagram",
+                    "target": "状态图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EntityRelationshipDiagram",
+                    "target": "实体关系图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "UserJourneyDiagram",
+                    "target": "用户旅程图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GanttChart",
+                    "target": "甘特图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PieChart",
+                    "target": "饼图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RequirementDiagram",
+                    "target": "需求图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitGraph",
+                    "target": "Git 图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mindmap",
+                    "target": "思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timeline",
+                    "target": "时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "QuadrantChart",
+                    "target": "象限图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SankeyDiagram",
+                    "target": "桑基图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "XyChart",
+                    "target": "XY 图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kanban",
+                    "target": "看板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Architecture",
+                    "target": "架构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Block",
+                    "target": "块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Packet",
+                    "target": "数据包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manage elements and categories",
+                    "target": "管理元素和类别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Toolbar View",
+                    "target": "打开工具栏视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit element",
+                    "target": "编辑元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "rendered diagram",
+                    "target": "渲染图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Category",
+                    "target": "类别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Description",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Content",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Unable to render preview",
+                    "target": "无法渲染预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mermaid Tools Settings",
+                    "target": "Mermaid 工具设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage Elements & Categories",
+                    "target": "管理元素与分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Element",
+                    "target": "添加元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Category",
+                    "target": "添加分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preview unavailable",
+                    "target": "预览不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "文本"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(`Unable to open element editor: ${getErrorMessage(error)}`)",
+                    "target": "Notice(`Unable to open element editor: ${getErrorMessage(error)}`)"
+                },
+                {
+                    "source": "setName(\"Category ID\")",
+                    "target": "setName(\"Category ID\")"
+                },
+                {
+                    "source": "setName(\"Category Name\")",
+                    "target": "setName(\"Category Name\")"
+                },
+                {
+                    "source": "setDesc(\"Display name for this category\")",
+                    "target": "setDesc(\"Display name for this category\")"
+                },
+                {
+                    "source": "setPlaceholder(\"My Custom Category\")",
+                    "target": "setPlaceholder(\"My Custom Category\")"
+                },
+                {
+                    "source": "setName(\"Default Wrapping\")",
+                    "target": "setName(\"Default Wrapping\")"
+                },
+                {
+                    "source": "setDesc('Default mermaid syntax to wrap elements (e.g., \"flowchart TD\", \"sequenceDiagram\")')",
+                    "target": "setDesc('Default mermaid syntax to wrap elements (e.g., \"flowchart TD\", \"sequenceDiagram\")')"
+                },
+                {
+                    "source": "setPlaceholder(\"flowchart TD\")",
+                    "target": "setPlaceholder(\"flowchart TD\")"
+                },
+                {
+                    "source": "setName(\"Additional Wrappings (Optional)\")",
+                    "target": "setName(\"Additional Wrappings (Optional)\")"
+                },
+                {
+                    "source": "setDesc('Comma-separated list of alternative wrappings (e.g., \"flowchart LR, flowchart TB\")')",
+                    "target": "setDesc('Comma-separated list of alternative wrappings (e.g., \"flowchart LR, flowchart TB\")')"
+                },
+                {
+                    "source": "setPlaceholder(\"flowchart LR, flowchart TB\")",
+                    "target": "setPlaceholder(\"flowchart LR, flowchart TB\")"
+                },
+                {
+                    "source": "setName(\"Sort Order\")",
+                    "target": "setName(\"Sort Order\")"
+                },
+                {
+                    "source": "setDesc(\"Determines the order in which categories appear\")",
+                    "target": "setDesc(\"Determines the order in which categories appear\")"
+                },
+                {
+                    "source": "Notice(\"Category ID is required\")",
+                    "target": "Notice(\"Category ID is required\")"
+                },
+                {
+                    "source": "Notice(\"Category name is required\")",
+                    "target": "Notice(\"Category name is required\")"
+                },
+                {
+                    "source": "Notice(\"Default wrapping is required\")",
+                    "target": "Notice(\"Default wrapping is required\")"
+                },
+                {
+                    "source": "Notice(`\"${wrapping}\" is not a recognized Mermaid diagram type. The category will still be saved.`)",
+                    "target": "Notice(`\"${wrapping}\" is not a recognized Mermaid diagram type. The category will still be saved.`)"
+                },
+                {
+                    "source": "Notice(`A category with ID '${this.category.id}' already exists`)",
+                    "target": "Notice(`A category with ID '${this.category.id}' already exists`)"
+                },
+                {
+                    "source": "Notice(`Unable to load Mermaid settings: ${getErrorMessage3(error)}`)",
+                    "target": "Notice(`Unable to load Mermaid settings: ${getErrorMessage3(error)}`)"
+                },
+                {
+                    "source": "Notice(`Error adding category: ${getErrorMessage3(error)}`)",
+                    "target": "Notice(`Error adding category: ${getErrorMessage3(error)}`)"
+                },
+                {
+                    "source": "setText(`(${elementCount} elements)`)",
+                    "target": "setText(`(${elementCount} elements)`)"
+                },
+                {
+                    "source": "Notice(`Error updating category: ${getErrorMessage3(error)}`)",
+                    "target": "Notice(`Error updating category: ${getErrorMessage3(error)}`)"
+                },
+                {
+                    "source": "setText(\"No elements in this category\")",
+                    "target": "setText(\"No elements in this category\")"
+                },
+                {
+                    "source": "setTooltip(\"edit element\")",
+                    "target": "setTooltip(\"edit element\")"
+                },
+                {
+                    "source": "setTooltip(\"create a duplicate of this element\")",
+                    "target": "setTooltip(\"create a duplicate of this element\")"
+                },
+                {
+                    "source": "setTooltip(\"move element up in the sidebar\")",
+                    "target": "setTooltip(\"move element up in the sidebar\")"
+                },
+                {
+                    "source": "setTooltip(\"move element down in the sidebar\")",
+                    "target": "setTooltip(\"move element down in the sidebar\")"
+                },
+                {
+                    "source": "setTooltip(\"delete element\")",
+                    "target": "setTooltip(\"delete element\")"
+                },
+                {
+                    "source": "Notice(`Cannot delete category '${category.name}' because it contains ${elementsInCategory.length} element(s).`)",
+                    "target": "Notice(`Cannot delete category '${category.name}' because it contains ${elementsInCategory.length} element(s).`)"
+                },
+                {
+                    "source": "Notice(`Error deleting category: ${getErrorMessage3(error)}`)",
+                    "target": "Notice(`Error deleting category: ${getErrorMessage3(error)}`)"
+                },
+                {
+                    "source": "description: \"a sample architecture diagram\"",
+                    "target": "description: \"a sample architecture diagram\""
+                },
+                {
+                    "source": "description: \"a sample block diagram\"",
+                    "target": "description: \"a sample block diagram\""
+                },
+                {
+                    "source": "description: \"sample C4 diagram (compatible with PlantUML)\"",
+                    "target": "description: \"sample C4 diagram (compatible with PlantUML)\""
+                },
+                {
+                    "source": "description: \"sample class\"",
+                    "target": "description: \"sample class\""
+                },
+                {
+                    "source": "description: \"generic class\"",
+                    "target": "description: \"generic class\""
+                },
+                {
+                    "source": "description: \"inheritance\"",
+                    "target": "description: \"inheritance\""
+                },
+                {
+                    "source": "description: \"composition\"",
+                    "target": "description: \"composition\""
+                },
+                {
+                    "source": "description: \"aggregation\"",
+                    "target": "description: \"aggregation\""
+                },
+                {
+                    "source": "description: \"association\"",
+                    "target": "description: \"association\""
+                },
+                {
+                    "source": "description: \"solid link\"",
+                    "target": "description: \"solid link\""
+                },
+                {
+                    "source": "description: \"dependency\"",
+                    "target": "description: \"dependency\""
+                },
+                {
+                    "source": "description: \"realization\"",
+                    "target": "description: \"realization\""
+                },
+                {
+                    "source": "description: \"dashed link\"",
+                    "target": "description: \"dashed link\""
+                },
+                {
+                    "source": "description: \"two-way relation\"",
+                    "target": "description: \"two-way relation\""
+                },
+                {
+                    "source": "description: \"sample class diagram\"",
+                    "target": "description: \"sample class diagram\""
+                },
+                {
+                    "source": "description: \"a sample entity relationship diagram\"",
+                    "target": "description: \"a sample entity relationship diagram\""
+                },
+                {
+                    "source": "description: \"an entity\"",
+                    "target": "description: \"an entity\""
+                },
+                {
+                    "source": "description: \"one-to-many relationship\"",
+                    "target": "description: \"one-to-many relationship\""
+                },
+                {
+                    "source": "description: \"many-to-many relationship\"",
+                    "target": "description: \"many-to-many relationship\""
+                },
+                {
+                    "source": "description: \"one-to-one relationship\"",
+                    "target": "description: \"one-to-one relationship\""
+                },
+                {
+                    "source": "description: \"many-to-one relationship\"",
+                    "target": "description: \"many-to-one relationship\""
+                },
+                {
+                    "source": "description: \"zero/one-to-one relationship\"",
+                    "target": "description: \"zero/one-to-one relationship\""
+                },
+                {
+                    "source": "description: \"one-to-one/zero relationship\"",
+                    "target": "description: \"one-to-one/zero relationship\""
+                },
+                {
+                    "source": "description: \"zero-or-more-to-one relationship\"",
+                    "target": "description: \"zero-or-more-to-one relationship\""
+                },
+                {
+                    "source": "description: \"one-to-zero-or-more relationship\"",
+                    "target": "description: \"one-to-zero-or-more relationship\""
+                },
+                {
+                    "source": "description: \"zero-or-more-to-many relationship\"",
+                    "target": "description: \"zero-or-more-to-many relationship\""
+                },
+                {
+                    "source": "description: \"many-to-zero-or-more relationship\"",
+                    "target": "description: \"many-to-zero-or-more relationship\""
+                },
+                {
+                    "source": "description: \"a simple flowchart with top to down direction\"",
+                    "target": "description: \"a simple flowchart with top to down direction\""
+                },
+                {
+                    "source": "description: \"a simple flowchart with left to right direction\"",
+                    "target": "description: \"a simple flowchart with left to right direction\""
+                },
+                {
+                    "source": "description: \"A node with round edges\"",
+                    "target": "description: \"A node with round edges\""
+                },
+                {
+                    "source": "description: \"A stadium-shaped node\"",
+                    "target": "description: \"A stadium-shaped node\""
+                },
+                {
+                    "source": "description: \"A node in a cylindrical shape\"",
+                    "target": "description: \"A node in a cylindrical shape\""
+                },
+                {
+                    "source": "description: \"Circle\"",
+                    "target": "description: \"Circle\""
+                },
+                {
+                    "source": "description: \"Rhombus\"",
+                    "target": "description: \"Rhombus\""
+                },
+                {
+                    "source": "description: \"Hexagon\"",
+                    "target": "description: \"Hexagon\""
+                },
+                {
+                    "source": "description: \"Parallelogram skewed right\"",
+                    "target": "description: \"Parallelogram skewed right\""
+                },
+                {
+                    "source": "description: \"Parallelogram skewed left\"",
+                    "target": "description: \"Parallelogram skewed left\""
+                },
+                {
+                    "source": "description: \"Trapezoid\"",
+                    "target": "description: \"Trapezoid\""
+                },
+                {
+                    "source": "description: \"Trapezoid upside down\"",
+                    "target": "description: \"Trapezoid upside down\""
+                },
+                {
+                    "source": "description: \"Double circle node\"",
+                    "target": "description: \"Double circle node\""
+                },
+                {
+                    "source": "description: \"A link with arrow head\"",
+                    "target": "description: \"A link with arrow head\""
+                },
+                {
+                    "source": "description: \"An open link\"",
+                    "target": "description: \"An open link\""
+                },
+                {
+                    "source": "description: \"Text on links\"",
+                    "target": "description: \"Text on links\""
+                },
+                {
+                    "source": "description: \"A link with arrow head and text\"",
+                    "target": "description: \"A link with arrow head and text\""
+                },
+                {
+                    "source": "description: \"Dotted link\"",
+                    "target": "description: \"Dotted link\""
+                },
+                {
+                    "source": "description: \"Thick link\"",
+                    "target": "description: \"Thick link\""
+                },
+                {
+                    "source": "description: \"Invisible link\"",
+                    "target": "description: \"Invisible link\""
+                },
+                {
+                    "source": "description: \"Link with circle edge\"",
+                    "target": "description: \"Link with circle edge\""
+                },
+                {
+                    "source": "description: \"Link with cross edge\"",
+                    "target": "description: \"Link with cross edge\""
+                },
+                {
+                    "source": "description: \"Subgraph\"",
+                    "target": "description: \"Subgraph\""
+                },
+                {
+                    "source": "description: \"simple gantt chart\"",
+                    "target": "description: \"simple gantt chart\""
+                },
+                {
+                    "source": "description: \"rich gantt chart\"",
+                    "target": "description: \"rich gantt chart\""
+                },
+                {
+                    "source": "description: \"milestones example\"",
+                    "target": "description: \"milestones example\""
+                },
+                {
+                    "source": "description: \"simple git graph\"",
+                    "target": "description: \"simple git graph\""
+                },
+                {
+                    "source": "description: \"tagged commit\"",
+                    "target": "description: \"tagged commit\""
+                },
+                {
+                    "source": "description: \"reverse commit\"",
+                    "target": "description: \"reverse commit\""
+                },
+                {
+                    "source": "description: \"highlighted commit\"",
+                    "target": "description: \"highlighted commit\""
+                },
+                {
+                    "source": "description: \"git graph with cherry-pick\"",
+                    "target": "description: \"git graph with cherry-pick\""
+                },
+                {
+                    "source": "description: \"a sample kanban diagram\"",
+                    "target": "description: \"a sample kanban diagram\""
+                },
+                {
+                    "source": "description: \"a simple mindmap\"",
+                    "target": "description: \"a simple mindmap\""
+                },
+                {
+                    "source": "description: \"square\"",
+                    "target": "description: \"square\""
+                },
+                {
+                    "source": "description: \"rounded square\"",
+                    "target": "description: \"rounded square\""
+                },
+                {
+                    "source": "description: \"circle\"",
+                    "target": "description: \"circle\""
+                },
+                {
+                    "source": "description: \"bang\"",
+                    "target": "description: \"bang\""
+                },
+                {
+                    "source": "description: \"cloud\"",
+                    "target": "description: \"cloud\""
+                },
+                {
+                    "source": "description: \"hexagon\"",
+                    "target": "description: \"hexagon\""
+                },
+                {
+                    "source": "description: \"default\"",
+                    "target": "description: \"default\""
+                },
+                {
+                    "source": "description: \"sample mindmap\"",
+                    "target": "description: \"sample mindmap\""
+                },
+                {
+                    "source": "description: \"a sample packet diagram\"",
+                    "target": "description: \"a sample packet diagram\""
+                },
+                {
+                    "source": "description: \"sample pie chart\"",
+                    "target": "description: \"sample pie chart\""
+                },
+                {
+                    "source": "description: \"sample pie chart with values shown in legend\"",
+                    "target": "description: \"sample pie chart with values shown in legend\""
+                },
+                {
+                    "source": "description: \"sample quadrant chart\"",
+                    "target": "description: \"sample quadrant chart\""
+                },
+                {
+                    "source": "description: \"themed quadrant chart\"",
+                    "target": "description: \"themed quadrant chart\""
+                },
+                {
+                    "source": "description: \"sample requirements diagram\"",
+                    "target": "description: \"sample requirements diagram\""
+                },
+                {
+                    "source": "description: \"a requirement with high risk\"",
+                    "target": "description: \"a requirement with high risk\""
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "description: \"a simple sequence diagram\"",
+                    "target": "description: \"a simple sequence diagram\""
+                },
+                {
+                    "source": "description: \"a simple sequence diagram with actors\"",
+                    "target": "description: \"a simple sequence diagram with actors\""
+                },
+                {
+                    "source": "description: \"a sample state diagram\"",
+                    "target": "description: \"a sample state diagram\""
+                },
+                {
+                    "source": "description: \"a sample state diagram with left-to-right direction\"",
+                    "target": "description: \"a sample state diagram with left-to-right direction\""
+                },
+                {
+                    "source": "description: \"node with description\"",
+                    "target": "description: \"node with description\""
+                },
+                {
+                    "source": "description: \"a transition\"",
+                    "target": "description: \"a transition\""
+                },
+                {
+                    "source": "description: \"a transition with label\"",
+                    "target": "description: \"a transition with label\""
+                },
+                {
+                    "source": "description: \"composite state\"",
+                    "target": "description: \"composite state\""
+                },
+                {
+                    "source": "description: \"diagram with choice\"",
+                    "target": "description: \"diagram with choice\""
+                },
+                {
+                    "source": "description: \"diagram with fork\"",
+                    "target": "description: \"diagram with fork\""
+                },
+                {
+                    "source": "description: \"a diagram with concurrency\"",
+                    "target": "description: \"a diagram with concurrency\""
+                },
+                {
+                    "source": "description: \"sample timeline\"",
+                    "target": "description: \"sample timeline\""
+                },
+                {
+                    "source": "description: \"timeline with grouping\"",
+                    "target": "description: \"timeline with grouping\""
+                },
+                {
+                    "source": "description: \"timeline with Forest theme. see the docs for additional themes\"",
+                    "target": "description: \"timeline with Forest theme. see the docs for additional themes\""
+                },
+                {
+                    "source": "description: \"a sample user journey diagram\"",
+                    "target": "description: \"a sample user journey diagram\""
+                },
+                {
+                    "source": "description: \"a step in user journey\"",
+                    "target": "description: \"a step in user journey\""
+                },
+                {
+                    "source": "description: \"a sample XYChart diagram\"",
+                    "target": "description: \"a sample XYChart diagram\""
+                },
+                {
+                    "source": "name: \"Flowchart\"",
+                    "target": "name: \"Flowchart\""
+                },
+                {
+                    "source": "name: \"SequenceDiagram\"",
+                    "target": "name: \"SequenceDiagram\""
+                },
+                {
+                    "source": "name: \"ClassDiagram\"",
+                    "target": "name: \"ClassDiagram\""
+                },
+                {
+                    "source": "name: \"StateDiagram\"",
+                    "target": "name: \"StateDiagram\""
+                },
+                {
+                    "source": "name: \"EntityRelationshipDiagram\"",
+                    "target": "name: \"EntityRelationshipDiagram\""
+                },
+                {
+                    "source": "name: \"UserJourneyDiagram\"",
+                    "target": "name: \"UserJourneyDiagram\""
+                },
+                {
+                    "source": "name: \"GanttChart\"",
+                    "target": "name: \"GanttChart\""
+                },
+                {
+                    "source": "name: \"PieChart\"",
+                    "target": "name: \"PieChart\""
+                },
+                {
+                    "source": "name: \"RequirementDiagram\"",
+                    "target": "name: \"RequirementDiagram\""
+                },
+                {
+                    "source": "name: \"GitGraph\"",
+                    "target": "name: \"GitGraph\""
+                },
+                {
+                    "source": "name: \"Mindmap\"",
+                    "target": "name: \"Mindmap\""
+                },
+                {
+                    "source": "name: \"Timeline\"",
+                    "target": "name: \"Timeline\""
+                },
+                {
+                    "source": "name: \"C4Diagram\"",
+                    "target": "name: \"C4Diagram\""
+                },
+                {
+                    "source": "name: \"QuadrantChart\"",
+                    "target": "name: \"QuadrantChart\""
+                },
+                {
+                    "source": "name: \"SankeyDiagram\"",
+                    "target": "name: \"SankeyDiagram\""
+                },
+                {
+                    "source": "name: \"XyChart\"",
+                    "target": "name: \"XyChart\""
+                },
+                {
+                    "source": "name: \"Kanban\"",
+                    "target": "name: \"Kanban\""
+                },
+                {
+                    "source": "name: \"Architecture\"",
+                    "target": "name: \"Architecture\""
+                },
+                {
+                    "source": "name: \"Block\"",
+                    "target": "name: \"Block\""
+                },
+                {
+                    "source": "name: \"Packet\"",
+                    "target": "name: \"Packet\""
+                },
+                {
+                    "source": "text: \"Edit element\"",
+                    "target": "text: \"Edit element\""
+                },
+                {
+                    "source": "text: \"rendered diagram\"",
+                    "target": "text: \"rendered diagram\""
+                },
+                {
+                    "source": "text: \"Category\"",
+                    "target": "text: \"Category\""
+                },
+                {
+                    "source": "text: \"Description\"",
+                    "target": "text: \"Description\""
+                },
+                {
+                    "source": "text: \"Content\"",
+                    "target": "text: \"Content\""
+                },
+                {
+                    "source": "text: \"Save\"",
+                    "target": "text: \"Save\""
+                },
+                {
+                    "source": "text: \"Unable to render preview\"",
+                    "target": "text: \"Unable to render preview\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                },
+                {
+                    "source": "name: \"Manage elements and categories\"",
+                    "target": "name: \"Manage elements and categories\""
+                },
+                {
+                    "source": "text: \"Mermaid Tools Settings\"",
+                    "target": "text: \"Mermaid Tools Settings\""
+                },
+                {
+                    "source": "text: \"Manage Elements & Categories\"",
+                    "target": "text: \"Manage Elements & Categories\""
+                },
+                {
+                    "source": "text: \"Add Element\"",
+                    "target": "text: \"Add Element\""
+                },
+                {
+                    "source": "description: \"New element\"",
+                    "target": "description: \"New element\""
+                },
+                {
+                    "source": "text: \"Add Category\"",
+                    "target": "text: \"Add Category\""
+                },
+                {
+                    "source": "text: \"Delete\"",
+                    "target": "text: \"Delete\""
+                },
+                {
+                    "source": "text: \"Preview unavailable\"",
+                    "target": "text: \"Preview unavailable\""
+                },
+                {
+                    "source": "name: \"Open Toolbar View\"",
+                    "target": "name: \"Open Toolbar View\""
+                }
+            ]
+        }
+    }
+}
